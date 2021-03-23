@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  position: relative;
+  height: fit-content;
+}
+
+/* Navbar adjustment */
+nav .nav_bar {
+  display: flex;
+  width: 100%;
+  padding: 0;
+}
+header {
+  padding-right: 20px;
+  text-align: right;
+}
+li {
+  display: inline-block;
+}
+
+/* Adjust divs in the middle  */
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+footer {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  height: 100px;
+  margin-top: 0px;
+}
+.footer-right,
+.footer-left {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.footer-right li,
+.footer-left li {
+  padding: 15px;
+}
+
+.gooogle-image {
+  margin-top: 200px;
+  height: auto;
+  font-size: 50px;
+}
+
+.form-search {
+  margin: 20px auto;
+  width: 400px;
+  padding: 6px;
+}
+.buttons {
+  margin: 0;
+  padding: 40px;
+}
